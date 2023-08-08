@@ -1,0 +1,37 @@
+/* src/App.css */
+
+/* Reset the default margin and padding for the entire page */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the app fill the whole screen */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 4vw; /* Adjust the font size as needed */
+  background-color: #f0f0f0; /* Optional: Set a background color for the app */
+}
+
+h1 {
+  font-size: 6vw; /* Adjust the font size as needed */
+}
+
+p {
+  font-size: 4vw; /* Adjust the font size as needed */
+}
+
+input {
+  margin-top: 2vw;
+  padding: 1vw;
+  font-size: 4vw; /* Adjust the font size as needed */
+}
+
+label {
+  display: block;
+  margin-top: 4vw;
+}
